@@ -1,15 +1,15 @@
+<!-- Atualizar Readme depois -->
+
 <div align="center">
 
   <a id="top">
-    <img src="./assets/ignite.svg" width="70%" height="350px">
+    <img src="./image.png"" alt="Background">
+</a>
 
-    ![alt text](image.png)
-
-  </a>
-
-# 💚 Ignite 💚
+# 💚 Ignite React Native💚
 
 ![License-Mit](https://img.shields.io/badge/license-MIT-lightseagreen) <img alt="badge vscode" src="./assets/badge-rocket.svg">
+![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-1B1F23?style=flat&logo=expo&logoColor=white)
 
   <p align="center">
     <a href="#projects">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
