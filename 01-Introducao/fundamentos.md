@@ -1,6 +1,20 @@
-![alt text](image.png)
+# Fundamentos React Native
 
-![alt text](image-1.png)
+### Renderização no React Native
+
+**A ponte do React Native atua como um intermediário entre o código JavaScript do React e as plataformas nativas iOS e Android.**
+
+**Ela converte os elementos React em elementos nativos específicos de cada plataforma.**
+
+Por exemplo, um botão React pode ser convertido em um **UIButton** no iOS e um **Button** no Android.
+
+![Renderização no React Native 1](./assets/image-0.png)
+
+**Os elementos nativos convertidos pela ponte do React Native são então renderizados pelas plataformas iOS e Android usando seus próprios mecanismos de renderização.**
+
+O resultado final é uma interface de usuário nativa que pode ser executada em diferentes dispositivos.
+
+![Renderização no React Native 2](./assets/image-1.png)
 
 ### Densidade de pixels
 
@@ -9,13 +23,19 @@ Existem dois pixels:
 - O **pixel de hardware** é de fato o ponto de luz na tela;
 - Já o **pixel de software** é dinâmico e de acordo com a densidade de pixels na tela;
 
-A Densidade de Pixels é o número total de pixels que existe dentro de um área física da tela (PPI - pixels per inch, ou pixel por polegada);
+> A Densidade de Pixels é o número total de pixels que existe dentro de um área física da tela (PPI - pixels per inch, ou pixel por polegada);
+
+![A Densidade de Pixels 1](./assets/image-2.png)
 
 Quanto mais perto do dispositivo mais detalhes de visualização será requerido, ou seja, será necessário uma maior densidade de pixels (smartphone e tablet), quanto mais distante, menor poderá ser a densidade de pixels (TV, Projetores);
 
-### Independência de Densidade
+![A Densidade de Pixels 2](./assets/image-3.png)
+
+#### Independência de Densidade
 
 Foi criado uma medida que renderiza os elementos de uma forma independente das características e densidades de cada dispositivo. **Android - DPI** ('dots per inch', ou 'pontos por polegada') e iOS (points);
+
+![Independência de Densidade](./assets/image-4.png)
 
 ---
 
