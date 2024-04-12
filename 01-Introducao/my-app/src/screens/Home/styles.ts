@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     padding: 24
   },
   eventName: {
-    color: "#FDFCFE",
+    color: "#FFF",
     fontSize: 24,
     fontWeight: "bold",
     marginTop: 48
@@ -15,5 +15,37 @@ export const styles = StyleSheet.create({
   eventDate: {
     color: "#6B6B6B",
     fontSize: 16
+  },
+  input: {
+    flex: 1,
+    height: 56,
+    backgroundColor: "#1F1E25",
+    color: "#FFF",
+    padding: 16,
+    borderRadius: 5,
+    marginRight: 12
+  },
+  button: {
+    width: 56,
+    height: 56,
+    borderRadius: 5,
+    backgroundColor: "#31CF67",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  buttonText: {
+    color: "#FFF",
+    fontSize: 24
+  },
+  form: {
+    width: "100%",
+    flexDirection: "row",
+    marginTop: 36,
+    marginBottom: 42
+  },
+  listEmptyText: {
+    color: "#FFF",
+    fontSize: 14,
+    textAlign: "center"
   }
 })

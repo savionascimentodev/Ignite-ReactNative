@@ -67,7 +67,9 @@ Na exportação **com default** não escolhemos exatamente o que queremos lá de
 
 ### Rolagem
 
-A **Scroll View** `<ScrollView></ScrollView` é utilizada para fazer uma rolagem para vários elementos quando não cabem em tela, utilizamos o map e retornamos o elemento a ser iterado, **porém a ScrollView renderiza(carrega) todos os elementos dessa 'lista'**.
+![alt text](image.png)
+
+A **Scroll View** `<ScrollView></ScrollView` é utilizada para fazer uma rolagem para vários elementos quando não cabem em tela, utilizamos o map e retornamos o elemento a ser iterado, porém a ScrollView **renderiza(carrega)** todos os elementos dessa lista.
 
 - **Recomendada para listas pequenas**
 
@@ -83,7 +85,7 @@ A **Scroll View** `<ScrollView></ScrollView` é utilizada para fazer uma rolagem
 </FlatView>
 ```
 
-Existe também a FlatList `<FlatList />` ela é diferente pois utilizamos as próprias propriedades desse componente para realizar a iteração, **já a FlatList não renderiza desnecessáriamente os elementos que não vão aparecer (muito mais perfórmatica)**
+Existe também a FlatList `<FlatList />` ela é diferente pois utilizamos as próprias propriedades desse componente para realizar a iteração, já a FlatList **não renderiza desnecessáriamente** os elementos que não vão aparecer **(muito mais perfórmatica)**
 
 - **Recomendada para listas muito grandes, buscar dados**
 
