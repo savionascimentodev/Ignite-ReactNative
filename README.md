@@ -52,11 +52,9 @@ Códigos/cursos feitos na plataforma da Rocketseat no curso do **Ignite**, repos
 - No ReactNative o padrão de css é **Flex**;
 - Aprendido os conceitos de **FlatList** e **ScrollView**, **TouchableOpacity**, **TextInput**;
 
-#### Mobile Screenshot:
-
-<img src="./assets/reactNative/EventoFicticio01.jpeg" height="600">
+<!-- <img src="./assets/reactNative/EventoFicticio01.jpeg" height="600">
 <img src="./assets/reactNative/EventoFicticio02.jpeg" height="600">
-<img src="./assets/reactNative/EventoFicticio03.jpeg" height="600">
+<img src="./assets/reactNative/EventoFicticio03.jpeg" height="600"> -->
 
 ---
 

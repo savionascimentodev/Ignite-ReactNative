@@ -67,7 +67,7 @@ Na exportação **com default** não escolhemos exatamente o que queremos lá de
 
 ### Rolagem
 
-![alt text](image.png)
+![Listas](./assets/image-6.png)
 
 A **Scroll View** `<ScrollView></ScrollView` é utilizada para fazer uma rolagem para vários elementos quando não cabem em tela, utilizamos o map e retornamos o elemento a ser iterado, porém a ScrollView **renderiza(carrega)** todos os elementos dessa lista.
 
@@ -126,13 +126,15 @@ Quando trabalhamos com variaveis **'tradicionais'**, método **push** por exempl
 Geralmente há duas maneiras de alterar dados:
 
 - A **primeira** é mutar o dado alterando diretamente seu valor;
-- A **segunda** maneira é substituir o dado antigo por uma nova cópia com as alterações desejadas;
+- A **segunda** maneira é substituir o dado antigo por uma nova cópia com as alterações desejadas
 
 #### Detectar Mudanças
 
-**Detectar mudanças e objetos mutados é difícil**, pos, eles são modificados diretamente. Essa detecção requer um objeto mutado para ser comparado com as cópias das suas próprias versões anteriores e a árvore inteira do object para ser cruzada.
+**Detectar mudanças e objetos mutados é difícil**, pois, eles são modificados diretamente. Essa detecção requer um objeto mutado para ser comparado com as cópias das suas próprias versões anteriores e a árvore inteira do object para ser cruzada.
 
-D**etectar mudanças em objetos imutáveis é consideravelmente fácil.** Se ele for diferente do anterior, o objeto foi alterado;
+**Detectar mudanças em objetos imutáveis é consideravelmente fácil.** Se ele for diferente do anterior, o objeto foi alterado;
+
+> O jeito é trabalhar com dados imutáveis.
 
 #### Benefícios
 
@@ -142,19 +144,28 @@ Como os dados imutáveis podem determinar facilmente se ocorreram alterações, 
 
 ### Renderizações
 
-Antes dos componentes serem exibidos na tela eles devem ser **renderizados** pelo React.
+![Renderizações 1](./assets/image-5.png)
+
+![Renderizações 2](./assets/image-8.png)
 
 #### Há duas razões para um componente renderizar
 
-**1 - Quando é a renderização inicial do componente**;
-**2 - O estado do componente mudou**;
+> **1 - Quando é a renderização inicial do componente**;
+> **2 - O estado do componente mudou**;
+
+![Renderizações 3](./assets/image-9.png)
 
 - Depois de acionar uma renderização o React chama seus componentes para descobrir o que exibir na tela;
 - Após renderizar(chamar) seus componentes, o React **modificará o Dom**.
 - Para a **renderização inicial** o React usará a API DOM para colocar todos os nós DOM criados na tela;
+
+![Renderizações 4](./assets/image-10.png)
+
 - Para **re-renderizações** o React aplicará as operações mínimas necessárias (calculadas durante a renderização) para fazer o DOM corresponder à saída de renderização mais recente.
 
-#### Qualquer atualização de tela em um aplicativo React acontece em três etapas:
+![Renderizações 5](./assets/image-11.png)
+
+#### [Resumindo] Qualquer atualização de tela em um aplicativo React acontece em três etapas:
 
 - **1 - Acionar**;
 - **2 - Renderizar**;
