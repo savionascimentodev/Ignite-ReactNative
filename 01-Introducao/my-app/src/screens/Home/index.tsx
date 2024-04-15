@@ -32,7 +32,10 @@ export function Home() {
       [
         {
           text: "Sim",
-          onPress: () => Alert.alert("Removido com Sucesso!")
+          onPress: () =>
+            setParticipants(prevState =>
+              prevState.filter(participante => participante != name)
+            )
         },
         { text: "Não", style: "cancel" }
       ]
