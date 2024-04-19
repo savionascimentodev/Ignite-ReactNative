@@ -1,10 +1,8 @@
 <!-- Atualizar Readme depois -->
 
 <div align="center">
-
-  <a id="top">
-    <img src="./image.png"" alt="Background">
-</a>
+    
+[![Ignite-Reac-Native-Banner.png](https://i.postimg.cc/9QqrtCSb/Ignite-Reac-Native-Banner.png)](https://postimg.cc/Mnq6z2zf)
 
 # 💚 Ignite React Native💚
 
@@ -101,7 +99,7 @@ Códigos/cursos feitos na plataforma da Rocketseat no curso do **Ignite**, repos
 
 ### 👤 Autor <a id="author"></a>
 
-<img align="left" src="https://www.github.com/savionascimentodev.png?size=150">
+[![Savio-Nascimento.png](https://i.postimg.cc/gjRJWDWh/Savio-Nascimento.png)](https://postimg.cc/CnhYCbdM)
 
 ### [Savio Nascimento](https://github.com/savionascimentodev)
 
